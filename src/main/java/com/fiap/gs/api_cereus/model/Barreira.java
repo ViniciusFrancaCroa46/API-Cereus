@@ -13,17 +13,12 @@ public class Barreira {
     private boolean ativacao;
     private LocalDateTime dataHoraAtivacao;
 
-    @ManyToOne
-    @JoinColumn(name = "sensor_agua_id", nullable = false)
-    private SensorAgua sensorAgua;
-
     //Construtores
     public Barreira() {}
 
-    public Barreira(boolean ativacao, LocalDateTime dataHoraAtivacao, SensorAgua sensorAgua) {
+    public Barreira(boolean ativacao, LocalDateTime dataHoraAtivacao) {
         this.ativacao = ativacao;
         this.dataHoraAtivacao = dataHoraAtivacao;
-        this.sensorAgua = sensorAgua;
     }
 
     // Getters e Setters
