@@ -22,7 +22,7 @@ Observações do funcionamento:
 
   - Os alertas são gerados automaticamente,
     sendo vinculados aos sensores que registram o nível da água maior que 5 m;
-  - As barreiras serão ativadas quando um alerta é gerado, mas caso um dado de um sensor seja salvo,
+  - As barreiras serão ativadas quando um alerta é gerado, mas caso um dado de um sensor seja salvo sem alerta,
     elas serão desativadas;
     
 
